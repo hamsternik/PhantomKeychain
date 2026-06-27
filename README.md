@@ -72,6 +72,11 @@ let store: KeychainStore = KeychainStoreInMemory()
   `0.2.0` will drop it for a zero-dependency `Security`/`SecItem` implementation — with
   the same public API.
 
+## Roadmap
+
+- [ ] Publish a [GitHub Release](https://github.com/hamsternik/PhantomKeychain/releases) with notes for `0.2.0` (skipped for `0.1.0`).
+- [ ] Register the package on [Swift Package Index](https://swiftpackageindex.com) for discoverability.
+
 ## Requirements
 
 - Swift 5.9+
