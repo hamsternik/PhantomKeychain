@@ -35,7 +35,7 @@ let package = Package(
             name: "PhantomKeychain",
             dependencies: [
                 .product(name: "KeychainSwift", package: "keychain-swift"),
-            ],
+            ]
         ),
         .testTarget(
             name: "PhantomKeychainTests",
