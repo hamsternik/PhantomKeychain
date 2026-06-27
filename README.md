@@ -76,6 +76,8 @@ let store: KeychainStore = KeychainStoreInMemory()
 
 - [ ] Publish a [GitHub Release](https://github.com/hamsternik/PhantomKeychain/releases) with notes for `0.2.0` (skipped for `0.1.0`).
 - [ ] Register the package on [Swift Package Index](https://swiftpackageindex.com) for discoverability.
+- [ ] Add an example project demonstrating real-world integration of the library in an app.
+- [ ] Expand CI to a full test matrix across every supported platform/OS/device (currently only `swift test` on the macOS host). Reference: [KeychainAccess `test.yml`](https://github.com/kishikawakatsumi/KeychainAccess/blob/master/.github/workflows/test.yml) — matrix over macOS runners × Xcode versions × simulator OS versions × device models, with `xcodebuild test` per destination.
 
 ## Requirements
 
